@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
