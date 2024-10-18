@@ -34,46 +34,56 @@
 
     </div>
     <div class="container">
-        <h2>DỊCH VỤ CỦA CHÚNG TÔI</h2>
-        <div class="services">
-            <div class="service-item">
-                <img src="/api/placeholder/250/150" alt="IT Services">
-                <h3>IT SERVICES</h3>
-                <p>Dịch vụ IT Services tạo điều kiện cho doanh nghiệp của bạn tập trung vào kinh doanh mà không cần lo lắng gì về wifi, đường truyền, sự cố,... với chi phí tiết kiệm.</p>
-                <a href="#">Xem chi tiết</a>
+        <div class="content">
+            <div class="service-container">
+                <h2>DỊCH VỤ CỦA CHÚNG TÔI</h2>
+                <div class="services">
+                    <div class="service-item">
+                        <a href="#">
+                            <div class="image-container">
+                            </div>
+                            <div class="service-content">
+                                <h3>IT SERVICES</h3>
+                                <p>Dịch vụ IT Services tạo điều kiện cho doanh nghiệp của bạn tập trung vào kinh doanh mà không cần lo lắng gì về wifi, đường truyền, sự cố,... với chi phí tiết kiệm.</p>
+                                <a href="#">Xem chi tiết</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="service-item">
+                        <img src="/api/placeholder/250/150" alt="Tổng đài VOIP">
+                        <h3>TỔNG ĐÀI VOIP</h3>
+                        <p>Là một công nghệ cho phép truyền thoại sử dụng giao thức mạng IP, trên cơ sở hạ tầng sẵn có của mạng internet với trang thiết bị hiện đại, chất lượng.</p>
+                        <a href="#">Xem chi tiết</a>
+                    </div>
+                    <div class="service-item">
+                        <img src="/api/placeholder/250/150" alt="Cloud Services">
+                        <h3>CLOUD SERVICES</h3>
+                        <p>Là một loại hình dịch vụ mang lại khả năng cung cấp dễ dàng không ảnh hưởng đến các dữ liệu đang được vận hành, đáp ứng nhu cầu của các website lớn</p>
+                        <a href="#">Xem chi tiết</a>
+                    </div>
+                    <div class="service-item">
+                        <img src="/api/placeholder/250/150" alt="Phòng IT">
+                        <h3>PHÒNG IT</h3>
+                        <p>Phòng IT là một bộ phận không thể thiếu đối với các doanh nghiệp ngày nay, tuy nhiên để xây dựng một phòng IT là một thách thức, cả về hiệu quả và chi phí.</p>
+                        <a href="#">Xem chi tiết</a>
+                    </div>
+                </div>
             </div>
-            <div class="service-item">
-                <img src="/api/placeholder/250/150" alt="Tổng đài VOIP">
-                <h3>TỔNG ĐÀI VOIP</h3>
-                <p>Là một công nghệ cho phép truyền thoại sử dụng giao thức mạng IP, trên cơ sở hạ tầng sẵn có của mạng internet với trang thiết bị hiện đại, chất lượng.</p>
-                <a href="#">Xem chi tiết</a>
-            </div>
-            <div class="service-item">
-                <img src="/api/placeholder/250/150" alt="Cloud Services">
-                <h3>CLOUD SERVICES</h3>
-                <p>Là một loại hình dịch vụ mang lại khả năng cung cấp dễ dàng không ảnh hưởng đến các dữ liệu đang được vận hành, đáp ứng nhu cầu của các website lớn</p>
-                <a href="#">Xem chi tiết</a>
-            </div>
-            <div class="service-item">
-                <img src="/api/placeholder/250/150" alt="Phòng IT">
-                <h3>PHÒNG IT</h3>
-                <p>Phòng IT là một bộ phận không thể thiếu đối với các doanh nghiệp ngày nay, tuy nhiên để xây dựng một phòng IT là một thách thức, cả về hiệu quả và chi phí.</p>
-                <a href="#">Xem chi tiết</a>
-            </div>
-        </div>
 
-        <div class="info-sections">
-            <div class="info-section">
-                <h3>Tại sao chọn chúng tôi ?</h3>
-                <p>Với hơn 5 năm kinh nghiệm trong lĩnh vực cung cấp các dịch vụ internet và giải pháp mạng, với chiến lược không ngừng cải tiến và phát triển, chúng tôi luôn mang đến cho khách hàng những dịch vụ tốt nhất.</p>
-            </div>
-            <div class="info-section">
-                <h3>Câu hỏi thường gặp</h3>
-                <details class="faq-item">
-                    <summary>Công ty tôi không có bộ phận IT, cần thuê bên VIETSERVICE thì...</summary>
-                    <p>Chúng tôi sẽ cung cấp giải pháp IT toàn diện cho công ty của bạn.</p>
-                </details>
-                <!-- Add more FAQ items as needed -->
+
+            <div class="info-sections">
+                <div class="info-section">
+                    <h3>Tại sao chọn chúng tôi ?</h3>
+                    <p>Với hơn 5 năm kinh nghiệm trong lĩnh vực cung cấp các dịch vụ internet và giải pháp mạng, với chiến lược không ngừng cải tiến và phát triển, chúng tôi luôn mang đến cho khách hàng những dịch vụ tốt nhất.</p>
+                </div>
+                <div class="info-section">
+                    <h3>Câu hỏi thường gặp</h3>
+                    <details class="faq-item">
+                        <summary>Công ty tôi không có bộ phận IT, cần thuê bên VIETSERVICE thì...</summary>
+                        <p>Chúng tôi sẽ cung cấp giải pháp IT toàn diện cho công ty của bạn.</p>
+                    </details>
+                    <!-- Add more FAQ items as needed -->
+                </div>
             </div>
         </div>
     </div>

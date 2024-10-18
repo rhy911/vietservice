@@ -1,6 +1,3 @@
-.body {
-}
-
 .carousel-item img {
   height: 50rem;
   object-fit: cover;
@@ -45,9 +42,13 @@
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.content {
+  max-width: 1120px;
 }
 h2 {
   color: #2e7d32;
