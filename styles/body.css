@@ -45,62 +45,98 @@
   display: flex;
   justify-content: center;
   padding: 80px 20px;
+  max-width: 100%;
 }
 
 .content {
   max-width: 1120px;
 }
+
 h2 {
   color: #2e7d32;
   text-align: center;
   margin-bottom: 40px;
 }
+
 .services {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .service-item {
   flex-basis: calc(25% - 20px);
   margin-bottom: 40px;
   text-align: center;
 }
-.service-item img {
+
+.service-image {
+  background-size: cover;
   max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+  height: 200px;
+  border-bottom: 5px solid #25723a;
+  background-position-x: 50%;
+  background-position-y: 50%;
 }
+
+.service-content {
+  padding: 20px;
+  text-align: start;
+}
+
+.service-content-element {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
 .service-item h3 {
+  font-size: 22px;
   color: #2e7d32;
   margin: 10px 0;
 }
+
 .service-item p {
   font-size: 14px;
   line-height: 1.5;
 }
+
 .service-item a {
   color: #2e7d32;
   text-decoration: none;
   font-weight: bold;
 }
+
 .info-sections {
   display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
+  justify-content: center;
+  max-width: 1120px;
 }
+
 .info-section {
-  flex-basis: 48%;
+  padding: 10px;
+  width: 50%;
+  line-height: 30px;
 }
+
 .info-section h3 {
   color: #2e7d32;
+  margin-bottom: 16px;
 }
-.faq-item {
-  margin-bottom: 20px;
+
+.accordion-flush > .accordion-item > .accordion-header .accordion-button,
+.accordion-flush > .accordion-item > .accordion-header .accordion-button.collapsed {
+  background-color: #c2c9d126;
 }
-.faq-item summary {
-  font-weight: bold;
-  cursor: pointer;
+
+.accordion-button:not(.collapsed) {
+  color: #2e7d32;
 }
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
@@ -114,4 +150,55 @@ h2 {
   font-size: 20px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .container {
+    padding: 60px 20px;
+  }
+  .service-item {
+    flex-basis: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 40px 20px;
+  }
+  .service-item {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 10px;
+  }
+  .service-item {
+    flex-basis: 100%;
+  }
+  .description {
+    padding: 30px 10px;
+  }
+  .description h2 {
+    font-size: 16px;
+  }
+  .service-content {
+    padding: 10px;
+  }
+  .service-item h3 {
+    font-size: 20px;
+  }
+  .service-item p {
+    font-size: 12px;
+  }
+  .info-sections {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-section {
+    width: 100%;
+    padding: 10px 0;
+  }
 }
