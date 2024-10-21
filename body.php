@@ -34,64 +34,62 @@
 
     </div>
     <div class="container" style="background-color: #54595F08;">
-        <div class="content">
-            <div class="service-section">
-                <h2>DỊCH VỤ CỦA CHÚNG TÔI</h2>
-                <div class="services">
-                    <div class="service-item">
-                        <a href="#">
-                            <div class="service-image" style="background-image: url(assets/images/it_service.jpg);">
+        <section class="service-section">
+            <h2>DỊCH VỤ CỦA CHÚNG TÔI</h2>
+            <div class="services">
+                <div class="service-item">
+                    <a href="#">
+                        <div class="service-image" style="background-image: url(assets/images/it_service.jpg);">
+                        </div>
+                        <div class="service-content">
+                            <h3>IT SERVICES</h3>
+                            <div class="service-content-element">
+                                Dịch vụ IT Services tạo điều kiện cho doanh nghiệp của bạn tập trung vào kinh doanh mà không cần lo lắng gì về wifi, đường truyền, sự cố,... với chi phí tiết kiệm.
                             </div>
-                            <div class="service-content">
-                                <h3>IT SERVICES</h3>
-                                <div class="service-content-element">
-                                    Dịch vụ IT Services tạo điều kiện cho doanh nghiệp của bạn tập trung vào kinh doanh mà không cần lo lắng gì về wifi, đường truyền, sự cố,... với chi phí tiết kiệm.
-                                </div>
-                                <p href="#" style="color: #2e7d32; font-size:16px;">Xem chi tiết</p>
+                            <p href="#" style="color: #2e7d32; font-size:16px;">Xem chi tiết</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-item">
+                    <a href="#">
+                        <div class="service-image" style="background-image: url(assets/images/tong_dai.jpg);">
+                        </div>
+                        <div class="service-content">
+                            <h3>TỔNG ĐÀI VOIP</h3>
+                            <div class="service-content-element">
+                                Là một công nghệ cho phép truyền thoại sử dụng giao thức mạng IP, trên cơ sở hạ tầng sẵn có của mạng internet với trang thiết bị hiện đại, chất lượng.
                             </div>
-                        </a>
-                    </div>
-                    <div class="service-item">
-                        <a href="#">
-                            <div class="service-image" style="background-image: url(assets/images/tong_dai.jpg);">
-                            </div>
-                            <div class="service-content">
-                                <h3>TỔNG ĐÀI VOIP</h3>
-                                <div class="service-content-element">
-                                    Là một công nghệ cho phép truyền thoại sử dụng giao thức mạng IP, trên cơ sở hạ tầng sẵn có của mạng internet với trang thiết bị hiện đại, chất lượng.
-                                </div>
-                                <p href="#" style="color: #2e7d32; font-size:16px;">Xem chi tiết</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item">
-                        <a href="#">
-                            <div class="service-image" style="background-image: url(/api/placeholder/250/150);">
-                            </div>
-                            <div class="service-content">
-                                <h3>CLOUD SERVICES</h3>
-                                <div class="service-content-element">Là một loại hình dịch vụ mang lại khả năng cung cấp dễ dàng không ảnh hưởng đến các dữ liệu đang được vận hành, đáp ứng nhu cầu của các website lớn</div>
-                                <p href="#" style="color: #2e7d32; font-size:16px;">Xem chi tiết</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item">
-                        <a href="#">
-                            <div class="service-image" style="background-image: url(/api/placeholder/250/150);">
-                            </div>
-                            <div class="service-content">
-                                <h3>PHÒNG IT</h3>
-                                <div class="service-content-element">Phòng IT là một bộ phận không thể thiếu đối với các doanh nghiệp ngày nay, tuy nhiên để xây dựng một phòng IT là một thách thức, cả về hiệu quả và chi phí.</div>
-                                <p href="#" style="color: #2e7d32; font-size:16px;">Xem chi tiết</p>
-                            </div>
-                        </a>
-                    </div>
+                            <p href="#" style="color: #2e7d32; font-size:16px;">Xem chi tiết</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-item">
+                    <a href="#">
+                        <div class="service-image" style="background-image: url(/api/placeholder/250/150);">
+                        </div>
+                        <div class="service-content">
+                            <h3>CLOUD SERVICES</h3>
+                            <div class="service-content-element">Là một loại hình dịch vụ mang lại khả năng cung cấp dễ dàng không ảnh hưởng đến các dữ liệu đang được vận hành, đáp ứng nhu cầu của các website lớn</div>
+                            <p href="#" style="color: #2e7d32; font-size:16px;">Xem chi tiết</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-item">
+                    <a href="#">
+                        <div class="service-image" style="background-image: url(/api/placeholder/250/150);">
+                        </div>
+                        <div class="service-content">
+                            <h3>PHÒNG IT</h3>
+                            <div class="service-content-element">Phòng IT là một bộ phận không thể thiếu đối với các doanh nghiệp ngày nay, tuy nhiên để xây dựng một phòng IT là một thách thức, cả về hiệu quả và chi phí.</div>
+                            <p href="#" style="color: #2e7d32; font-size:16px;">Xem chi tiết</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
     <div class="container">
-        <div class="info-sections">
+        <section class="info-sections">
             <div class="info-section">
                 <h3>Tại sao chọn chúng tôi ?</h3>
                 <p>Với hơn 5 năm kinh nghiệm trong lĩnh vực cung cấp các dịch vụ Internet và giải pháp mạng, với chiến lược không ngừng cải tiến và nâng cao chất lượng dịch vụ nhằm đáp ứng tốt nhất và linh hoạt nhất mọi nhu cầu cao cấp của khách hàng, VIETSERVICE luôn là sự lựa chọn tin cậy hàng đầu của khách hàng cũng như đối tác.</p>
@@ -171,7 +169,84 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="solution-section">
+            <h2>VIETSERVICE GIẢI QUYẾT 3 VẤN ĐỀ CHÍNH CHO DOANH NGHIỆP</h2>
+            <div style="margin: 20px 0 20px 0;">
+                <p>Chúng tôi luôn thấu hiểu rằng đối với các doanh nghiệp, quản lý và sử dụng CNTT có thể là một thách thức thực sự: phải luôn cập nhật công nghệ mới, kiểm soát chi phí, đào tạo nhân viên.</p>
+            </div>
+            <div class="solution-items">
+                <div class="solution-item">
+                    <div class="solution-icon">⚽</div>
+                    <h3>Hiệu quả</h3>
+                    <p>Các đối tác và dịch vụ CNTT hiện tại hoạt động chưa hiệu quả làm giảm năng suất và gây rủi ro cho doanh nghiệp của bạn.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">💎</div>
+                    <h3>Kiểm soát chi phí</h3>
+                    <p>Khó khăn trong việc kiểm soát chi phí về IT trong khi đó là những chi phí chìm lớn và thường xuyên đối với doanh nghiệp.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">🎁</div>
+                    <h3>Cơ hội tốt</h3>
+                    <p>Mất thời gian và tài nguyên cho việc quản lý CNTT, ảnh hưởng đến hoạt động kinh doanh chính của doanh nghiệp.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="contact-section">
+            <h2>Liên hệ với chúng tôi</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <p>VietService sẽ chia sẻ dữ liệu của mình để biết thêm thông tin!</p>
+                    <form action="#">
+                        <div class="input-group">
+                            <label for="name">Họ và tên</label>
+                            <input type="text" id="name" placeholder="Nhập họ và tên">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="Nhập E-mail">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="phone">Điện thoại</label>
+                            <input type="tel" id="phone" placeholder="Nhập số điện thoại">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="address">Địa chỉ</label>
+                            <input type="text" id="address" placeholder="Nhập địa chỉ">
+                        </div>
+
+                        <div class="input-group-full">
+                            <label for="message">Nội dung tin nhắn</label>
+                            <textarea id="message" rows="4" placeholder="Nhập nội dung tin nhắn"></textarea>
+                        </div>
+
+                        <p>Bạn biết chúng tôi qua:</p>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox"> Facebook</label>
+                            <label><input type="checkbox"> LinkedIn</label>
+                            <label><input type="checkbox"> Twitter</label>
+                            <label><input type="checkbox"> Instagram</label>
+                            <label><input type="checkbox"> Email</label>
+                            <label><input type="checkbox"> Khác</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Gửi Liên Hệ</button>
+                    </form>
+                </div>
+                <div class="contact-call">
+                    <p>Vui lòng gọi cho chúng tôi hoặc điền vào mẫu. Chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất.</p>
+                    <img class="contact-img" src="assets/images/ho_tro.png" alt="contact">
+                </div>
+            </div>
+        </section>
     </div>
 
     <div class="scroll-to-top">↑</div>
