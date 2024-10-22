@@ -15,6 +15,35 @@ h2 {
   font-size: 30px;
 }
 
+.carousel-overlay {
+  max-width: 1120px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  z-index: 10;
+}
+
+.carousel-overlay h1,
+.carousel-overlay p {
+  color: #fff;
+}
+
+.carousel-overlay button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  background-color: #fff;
+  border-color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+}
+
+.carousel-overlay button:hover {
+  color: #fff;
+  background-color: #25723a;
+  border-color: #25723a;
+}
+
 .carousel-item img {
   height: 50rem;
   object-fit: cover;
@@ -302,6 +331,11 @@ section {
   .service-item {
     flex-basis: calc(50% - 20px);
   }
+  .carousel-overlay {
+    top: 40%;
+    left: 20%;
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -341,5 +375,10 @@ section {
   .contact-form,
   .contact-call {
     width: 100%;
+  }
+  .carousel-overlay {
+    top: 40%;
+    left: 10%;
+    max-width: 80%;
   }
 }

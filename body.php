@@ -1,37 +1,53 @@
 <div class="body">
-    <div class="carousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="carousel-container" style="position: relative;">
+        <div class="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/carousel1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-overlay">
+                            <h1>Your Overlay Content Here 1</h1>
+                            <p>Đơn giản hóa và tối ưu hóa việc sử dụng CNTT cho doanh nghiệp</p>
+                            <button>Liên hệ ngay</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/carousel2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-overlay">
+                            <h1>DỊCH VỤ IT CHUYÊN NGHIỆP</h1>
+                            <p>Đơn giản hóa và tối ưu hóa việc sử dụng CNTT cho doanh nghiệp</p>
+                            <button>Liên hệ ngay</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/carousel3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-overlay">
+                            <h1>Your Overlay Content Here 3</h1>
+                            <p>Đơn giản hóa và tối ưu hóa việc sử dụng CNTT cho doanh nghiệp</p>
+                            <button>Liên hệ ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/carousel1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/carousel2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/carousel3.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </div>
     <div class="description">
         <div class="title">
             <h2>Dịch vụ và giải pháp của chúng tôi giúp cho doanh nghiệp của bạn hợp lý hóa quy trình làm việc và tăng năng suất, cung cấp cho bạn các giải pháp phù hợp với ngành, được tùy chỉnh theo nhu cầu cụ thể của công ty bạn.</h2>
         </div>
-
     </div>
     <div class="container" style="background-color: #54595F08;">
         <section class="service-section">

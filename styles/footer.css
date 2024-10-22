@@ -3,16 +3,109 @@ footer .container {
   justify-content: center;
 }
 
+footer h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 footer section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 footer .about-us img {
   max-width: 50%;
+  margin-bottom: 10px;
 }
 
 .about-element {
   width: 33.33%;
+}
+
+.contact-btn {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.39em;
+  fill: #25723a;
+  color: #25723a;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #25723a;
+  padding: 12px 40px 10px 40px;
+  margin-left: auto;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.contact-btn:hover {
+  color: #fff;
+  background-color: #6db14c;
+  border-color: #6db14c;
+}
+
+.call-us {
+  display: flex;
+  align-items: center;
+}
+
+footer h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.about-element-1,
+.about-element-2 {
+  width: 50%;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .about-element {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  footer section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-element {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about-element-1,
+  .about-element-2 {
+    width: 100%;
+  }
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
 }

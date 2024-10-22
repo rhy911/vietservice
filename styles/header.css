@@ -1,17 +1,19 @@
 .header {
   background-color: white;
-  padding: 10px 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px 20px 10px 20px;
   border-bottom: #ddd 1px solid;
+}
+
+header section {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 .logo {
   height: 60px;
 }
 
 .nav-bar {
-  display: flex;
   margin-left: auto;
 }
 .nav a {
@@ -22,4 +24,121 @@
   text-transform: uppercase;
   line-height: 55px;
   color: #333;
+}
+
+#nav-container {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  pointer-events: none;
+}
+#nav-container .bg {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 70px);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  background: #000;
+}
+#nav-container:focus-within .bg {
+  visibility: visible;
+  opacity: 0.6;
+}
+#nav-container * {
+  visibility: visible;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  height: 70px;
+  width: 30px;
+  cursor: pointer;
+  pointer-events: auto;
+  margin-left: 25px;
+  touch-action: manipulation;
+}
+.icon-bar {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #aaa;
+  transition: 0.3s;
+}
+.icon-bar + .icon-bar {
+  margin-top: 5px;
+}
+
+#nav-container:focus-within .button {
+  pointer-events: none;
+}
+#nav-container:focus-within .icon-bar:nth-of-type(1) {
+  transform: translate3d(0, 8px, 0) rotate(45deg);
+}
+#nav-container:focus-within .icon-bar:nth-of-type(2) {
+  opacity: 0;
+}
+#nav-container:focus-within .icon-bar:nth-of-type(3) {
+  transform: translate3d(0, -8px, 0) rotate(-45deg);
+}
+
+#nav-content {
+  margin-top: 70px;
+  padding: 20px;
+  width: 90%;
+  max-width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% - 70px);
+  background: #ececec;
+  pointer-events: auto;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+  will-change: transform;
+  contain: paint;
+}
+
+#nav-content ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-content li a {
+  padding: 10px 5px;
+  display: block;
+  text-transform: uppercase;
+  transition: color 0.1s;
+}
+
+#nav-content li a:hover {
+  color: #bf7497;
+}
+
+#nav-content li:not(.small) + .small {
+  margin-top: auto;
+}
+#nav-container:focus-within #nav-content {
+  transform: none;
+}
+
+@media (max-width: 768px) {
+  #nav-container {
+    display: block;
+  }
+  .nav-bar {
+    display: none;
+  }
 }
