@@ -1,4 +1,4 @@
-<div class="body">
+<div class="homepage">
     <div class="carousel-container" style="position: relative;">
         <div class="carousel">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">

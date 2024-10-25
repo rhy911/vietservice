@@ -6,6 +6,7 @@
 }
 
 header section {
+  max-width: 1120px;
   display: flex;
   margin-right: auto;
   margin-left: auto;

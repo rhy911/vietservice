@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
-    <?php include 'body.php'; ?>
-    <?php include 'footer.php'; ?>
+    <?php include 'shared/header.php'; ?>
+    <?php include 'homepage.php'; ?>
+    <?php include 'shared/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

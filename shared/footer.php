@@ -8,7 +8,7 @@
     <div class="container" style="background-color: #B1B1B152; padding: 50px 20px 50px 20px;">
         <section class="about-us">
             <div class="about-element">
-                <img src="assets/images/logo.png" alt="VietService Logo">
+                <img src="/vietservice/assets/images/logo.png" alt="VietService Logo">
                 <h3>Công ty TNHH Công nghệ VietService</h3>
                 <p>Thôn Văn Lũng, Xã An Khánh, Huyện Hoài Đức, Thành Phố Hà Nội, Việt Nam</p>
                 <p>Mã số thuế: 0109927829</p>
@@ -42,7 +42,7 @@
                     <a href="#" aria-label="LinkedIn">IN</a>
                     <a href="#" aria-label="Twitter">TW</a>
                 </div>
-                <img src="assets/images/ePayco.png" alt="ePayco">
+                <img src="/vietservice/assets/images/ePayco.png" alt="ePayco">
             </div>
 
         </section>
@@ -54,5 +54,6 @@
             </div>
         </section>
     </div>
-    <link rel="stylesheet" href="styles/footer.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="/vietservice/styles/root.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="/vietservice/styles/footer.css?v=<?php echo time(); ?>" />
 </footer>
