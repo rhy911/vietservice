@@ -1,3 +1,4 @@
+/* General section styling */
 section {
   position: relative;
   width: 100%;
@@ -5,15 +6,15 @@ section {
 
 section h2 {
   color: #25723a;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 500;
-  line-height: 1.38em;
+  line-height: 1.38;
 }
 
+/* Layout utilities */
 .max-width {
   max-width: 1120px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-inline: auto;
 }
 
 .width-50 {
@@ -21,61 +22,124 @@ section h2 {
 }
 
 .padding-10 {
-  padding: 10px;
+  padding: 0.625rem;
 }
 
+/* Background sections */
 .background-img {
-  background-image: url("/vietservice/assets/images/gioi-thieu.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 145px 20px 145px 20px;
+  background: url("/vietservice/assets/images/gioi-thieu.jpg") top center/cover no-repeat;
+  padding: 9.0625rem 1.25rem;
 }
 
-.stats {
-  display: flex;
+.core {
+  background: url("/vietservice/assets/images/gioi-thieu-3.jpg") top center/cover no-repeat;
+  padding: 100px 20px 100px 20px;
 }
 
+/* Overlay styles */
 .opacity {
-  width: 100%;
-  top: 0;
-  left: 0;
   position: absolute;
-  height: 100%;
+  inset: 0;
   background-color: #231834;
   opacity: 0.7;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .overlay {
-  max-width: 1120px;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
   position: relative;
-  padding: 10px;
+  max-width: 1120px;
+  margin-inline: auto;
+  padding: 0.625rem;
+  text-align: center;
 }
 
 .overlay h1 {
   margin: 0;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
   position: relative;
   color: #fff;
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 400;
   text-transform: uppercase;
 }
 
+.overlay h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.overlay p {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.36;
+  margin: 0 0 45px 0;
+}
+
+.play-btn {
+  width: 95px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* Enhanced Slider */
+.slider {
+  overflow: hidden;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.slider h1 {
+  color: #fff;
+  font-size: 3.125rem;
+  font-weight: 500;
+  line-height: 1.36;
+}
+
+.slide-container {
+  display: flex;
+  width: 300%; /* Set width to accommodate all slides if you have 3 slides */
+  animation: slide-animation 20s infinite;
+}
+
+.slide {
+  width: 1120px; /* Full width for each slide within the viewport */
+  box-sizing: border-box;
+}
+
+/* Card styles */
+.card {
+  display: flex;
+  width: 33.333333%;
+  padding: 0.625rem;
+  border: none;
+}
+
+.card h3 {
+  margin: 0 0 0.625rem;
+  color: #25723a;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.39;
+}
+
+.img-box {
+  width: 48px;
+  min-width: 48px;
+  margin: 0 1.875rem 0 0 !important;
+}
+
+/* Typography styles */
 .col-md-4 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
 }
 
 .display-4 {
   color: #25723a;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -84,15 +148,99 @@ section h2 {
   opacity: 0.5;
 }
 
+/* Divider */
 .devider {
-  margin: 0 0 60px 0;
-  padding: 0 10px 0 10px;
+  width: 130px;
+  height: 60px;
+  border-top: 2px solid #25723a;
+  margin: 0 auto;
 }
+
+#video-container {
+  width: 100vw;
+  height: 100vh;
+  display: none; /* Initially hidden */
+  position: fixed; /* Fixed position to float on top */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position to be exactly in the center */
+  z-index: 10000; /* Ensure it is on top of everything else */
+  background-color: rgba(0, 0, 0, 0.8); /* Optional: Set a background color */
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  width: 80vw; /* Adjust the width as needed */
+  height: 80vh; /* Adjust the height as needed */
+}
+
+/* Animation */
+@keyframes slide-animation {
+  0%,
+  20% {
+    transform: translateX(0); /* Show first slide */
+  }
+  25%,
+  45% {
+    transform: translateX(-1120px); /* Show second slide */
+  }
+  50%,
+  70% {
+    transform: translateX(-2240px); /* Show third slide */
+  }
+  75%,
+  100% {
+    transform: translateX(0); /* Loop back to first slide */
+  }
+}
+
+/* Media queries */
 @media (max-width: 768px) {
   .overlay h1 {
-    font-size: 48px;
+    font-size: 3rem;
   }
+
   .about-us {
-    margin-top: 80px;
+    margin-top: 5rem;
+  }
+
+  #slider,
+  #slider .slide {
+    width: 100%;
+    min-width: 300px;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-900px);
+    }
+  }
+}
+
+/* Additional responsive optimizations */
+@media (max-width: 480px) {
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .overlay h2 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .img-box {
+    margin: 0 0 1rem 0 !important;
   }
 }

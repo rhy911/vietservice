@@ -24,7 +24,7 @@
                 <div class="d-flex flex-column justify-content-center width-50 padding-10">
                     <h2>DỊCH VỤ IT SERVICES ĐÁNG TIN CẬY</h2>
                     <div>
-                        <div class="stats">
+                        <div class="stats d-flex">
                             <div class="container">
                                 <div class="row justify-content-center text-start">
                                     <div class="col-md-4">
@@ -63,14 +63,63 @@
             </div>
         </section>
         <section>
-            <div class="max-width">
-                <div class="divider"></div>
+            <div class="devider"></div>
+            <div class="max-width d-flex">
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/Tamnhin.png" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>TẦM NHÌN</h3>
+                        <p>Chúng tôi luôn nỗ lực hết mình để trở thành thương hiệu về giải pháp phần mềm tổng thể theo đặc thù doanh nghiệp, có giải pháp thông minh nhất, được tin dùng nhất, có dịch vụ tốt nhất cho các doanh nghiệp vừa và lớn tại Việt Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/Sumenh.png" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>SỨ MỆNH</h3>
+                        <p>Hợp tác cùng nghiên cứu và phát triển các giải pháp cho doanh nghiệp. Phát triển hệ sinh thái sản phẩm và dịch vụ nhằm mang lại các cơ hội kinh doanh và đồng hành cùng các đối tác địa phương hay chuyên sâu theo từng thị trường.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/Trietly.png" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>TRIẾT LÝ KINH DOANH</h3>
+                        <p>
+                        <p>Chúng tôi luôn nỗ lực hết mình để trở thành thương hiệu về giải pháp phần mềm tổng thể theo đặc thù doanh nghiệp, có giải pháp thông minh nhất, được tin dùng nhất, có dịch vụ tốt nhất cho các doanh nghiệp vừa và lớn tại Việt Nam</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="core">
+            <div class="opacity" style="background-color: #25723a"></div>
+            <div class="overlay">
+                <h2>Giá trị cốt lõi</h2>
+                <div class="slider">
+                    <div class="slide-container">
+                        <div class="slide">
+                            <h1>UY TÍN</h1>
+                        </div>
+                        <div class="slide">
+                            <h1>CHUYÊN NGHIỆP</h1>
+                        </div>
+                        <div class="slide">
+                            <h1>TẬN TÂM</h1>
+                        </div>
+                    </div>
+                </div>
+                <p>Lợi ích của khách hàng là thành công của chúng tôi</p>
+                <div class="play-btn" onclick="playVideo()">
+                    <img src="assets/images/icon-play.png" alt="play" class="img-fluid">
+                </div>
             </div>
         </section>
     </div>
     <?php include 'shared/footer.php'; ?>
+    <div id="video-container">
+        <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=eftZaf3DPLpZf3TL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="scripts/number_counter.js"></script>
+    <script src="scripts/button.js"></script>
 </body>
 
 </html>
