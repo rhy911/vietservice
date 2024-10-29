@@ -112,6 +112,89 @@
                 </div>
             </div>
         </section>
+        <section style="padding: 60px 20px 15px 20px;">
+            <div class="why-choose-us max-width text-align-center margin-bottom-60">
+                <p>VÌ SAO CHỌN CHÚNG TÔI</p>
+                <h2>6 lý do bạn nên chọn VietService</h2>
+            </div>
+            <div class="devider"></div>
+            <div class="reasons d-flex max-width">
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/conversation.svg" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>Công nghệ cập nhật</h3>
+                        <p>Chúng tôi hỗ trợ từ xa ngay lập tức khi bạn gặp vấn đề, và sẽ tới xử lý trực tiếp khi cần thiết trong thời gian cam kết.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/conversation.svg" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>Công nghệ cập nhật</h3>
+                        <p>Chúng tôi hỗ trợ từ xa ngay lập tức khi bạn gặp vấn đề, và sẽ tới xử lý trực tiếp khi cần thiết trong thời gian cam kết.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/conversation.svg" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>Công nghệ cập nhật</h3>
+                        <p>Chúng tôi hỗ trợ từ xa ngay lập tức khi bạn gặp vấn đề, và sẽ tới xử lý trực tiếp khi cần thiết trong thời gian cam kết.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/conversation.svg" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>Công nghệ cập nhật</h3>
+                        <p>Chúng tôi hỗ trợ từ xa ngay lập tức khi bạn gặp vấn đề, và sẽ tới xử lý trực tiếp khi cần thiết trong thời gian cam kết.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/conversation.svg" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>Công nghệ cập nhật</h3>
+                        <p>Chúng tôi hỗ trợ từ xa ngay lập tức khi bạn gặp vấn đề, và sẽ tới xử lý trực tiếp khi cần thiết trong thời gian cam kết.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="assets/images/conversation.svg" alt="aboutus" class="img-fluid"></div>
+                    <div>
+                        <h3>Công nghệ cập nhật</h3>
+                        <p>Chúng tôi hỗ trợ từ xa ngay lập tức khi bạn gặp vấn đề, và sẽ tới xử lý trực tiếp khi cần thiết trong thời gian cam kết.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="padding: 60px 20px 60px 20px;">
+            <div class="max-width">
+                <div class="share-thought text-align-center">
+                    <p>CHIA SẺ KIẾN THỨC</p>
+                    <h2 style="max-width: 450px; margin: 0 auto;">Ý TƯỞNG HÔM NAY SẼ LÀ SÁNG KIẾN NGÀY MAI</h2>
+                </div>
+                <p class="text-align-center" style="max-width: 770px; margin: 0 auto; margin-bottom: 45px;">Cùng khám phá các bài viết được chia sẻ bởi VietService để tiếp cận những xu hướng CNTT hiện tại, hoặc những thủ thuật giúp ích cho trải nghiệm CNTT ngày càng tốt hơn.</p>
+                <div class="share-thought-card max-width d-flex">
+                    <div class="card flex-column">
+                        <img src="assets/images/domain.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card flex-column">
+                        <img src="assets/images/domain.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-text">Các loại email doanh nghiệp phổ biến hiện nay</h3>
+                            <div class="date"><span>28 March, 2022</span></div>
+                            <p>Việc sử dụng email doanh nghiệp vốn không mấy xa lạ trong thời hiện đại. Bởi bên cạnh sự tiện lợi, email doanh</p>
+                        </div>
+                    </div>
+                    <div class="card flex-column">
+                        <img src="assets/images/domain.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Xem thêm các bài viết khác có thể giúp bạn tiếp cận được nhiều thông tin hơn, tăng kiến thức và thu được nhiều điều tích cực. <span style="color: #25723a; line-height: 1.36em;">Xem tất cả</span></p>
+            </div>
+        </section>
     </div>
     <?php include 'shared/footer.php'; ?>
     <div id="video-container">

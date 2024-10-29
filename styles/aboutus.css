@@ -11,6 +11,46 @@ section h2 {
   line-height: 1.38;
 }
 
+.why-choose-us p,
+.share-thought p {
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #25723a;
+  margin: 0;
+}
+
+.reasons {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1.25rem;
+}
+
+.share-thought {
+  margin-bottom: 20px;
+}
+
+.share-thought-card .card h3 {
+  color: #54595f;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.share-thought-card .date {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 13px;
+  color: #adadad;
+  line-height: 1.3em;
+}
+
+.share-thought-card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.36em;
+  color: #777;
+}
+
 /* Layout utilities */
 .max-width {
   max-width: 1120px;
@@ -23,6 +63,14 @@ section h2 {
 
 .padding-10 {
   padding: 0.625rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.margin-bottom-60 {
+  margin-bottom: 60px;
 }
 
 /* Background sections */
@@ -112,6 +160,7 @@ section h2 {
 /* Card styles */
 .card {
   display: flex;
+  flex-direction: row;
   width: 33.333333%;
   padding: 0.625rem;
   border: none;
