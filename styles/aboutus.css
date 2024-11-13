@@ -73,6 +73,14 @@ section h2 {
   margin-bottom: 60px;
 }
 
+.about-us-text-content-1-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 10px;
+}
+
 /* Background sections */
 .background-img {
   background: url("/vietservice/assets/images/gioi-thieu.jpg") top center/cover no-repeat;
@@ -219,9 +227,18 @@ section h2 {
   justify-content: center;
 }
 
+.video-wrapper {
+  position: relative;
+  width: 1120px;
+  padding-bottom: 33%;
+}
+
 iframe {
-  width: 80vw; /* Adjust the width as needed */
-  height: 80vh; /* Adjust the height as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Animation */
@@ -232,11 +249,11 @@ iframe {
   }
   25%,
   45% {
-    transform: translateX(-1120px); /* Show second slide */
+    transform: translateX(-33.333333%); /* Show second slide */
   }
   50%,
   70% {
-    transform: translateX(-2240px); /* Show third slide */
+    transform: translateX(-66.666666%); /* Show third slide */
   }
   75%,
   100% {
@@ -247,11 +264,26 @@ iframe {
 /* Media queries */
 @media (max-width: 768px) {
   .overlay h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
   .about-us {
     margin-top: 5rem;
+  }
+
+  .about-us-text-content-1,
+  .about-us-text-content-2,
+  .share-thought-card {
+    display: block !important;
+  }
+
+  .about-us-text-content-1-element,
+  .card {
+    width: 100%;
+  }
+
+  .row > * {
+    width: auto;
   }
 
   #slider,
@@ -264,32 +296,8 @@ iframe {
     width: 100%;
   }
 
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-900px);
-    }
-  }
-}
-
-/* Additional responsive optimizations */
-@media (max-width: 480px) {
-  .overlay h1 {
-    font-size: 2rem;
-  }
-
-  .overlay h2 {
-    font-size: 1.5rem;
-  }
-
-  .card {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .img-box {
-    margin: 0 0 1rem 0 !important;
+  .video-wrapper {
+    width: 100%; /* Adjust the width for smaller screens */
+    padding-top: 22%; /* 16:9 aspect ratio (9/16 = 0.5625, 0.5625 * 90vw = 50.625vw) */
   }
 }
