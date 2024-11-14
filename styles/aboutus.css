@@ -143,7 +143,6 @@ section h2 {
 /* Enhanced Slider */
 .slider {
   overflow: hidden;
-  width: 1120px;
   margin: 0 auto;
 }
 
@@ -229,8 +228,7 @@ section h2 {
 
 .video-wrapper {
   position: relative;
-  width: 1120px;
-  padding-bottom: 33%;
+  width: 75%;
 }
 
 iframe {
@@ -262,6 +260,41 @@ iframe {
 }
 
 /* Media queries */
+@media (max-width: 1024px) {
+  .overlay h1 {
+    font-size: 3.5rem;
+  }
+
+  .about-us-text-content-1,
+  .about-us-text-content-2,
+  .share-thought-card {
+    display: block !important;
+  }
+
+  .about-us-text-content-1-element,
+  .card {
+    width: 100%;
+  }
+
+  .row > * {
+    width: auto;
+  }
+
+  #slider,
+  #slider .slide {
+    width: 100%;
+    min-width: 300px;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .video-wrapper {
+    width: 100%; /* Adjust the width for smaller screens */
+  }
+}
+
 @media (max-width: 768px) {
   .overlay h1 {
     font-size: 2.8rem;
@@ -298,6 +331,5 @@ iframe {
 
   .video-wrapper {
     width: 100%; /* Adjust the width for smaller screens */
-    padding-top: 22%; /* 16:9 aspect ratio (9/16 = 0.5625, 0.5625 * 90vw = 50.625vw) */
   }
 }

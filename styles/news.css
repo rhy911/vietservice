@@ -1,0 +1,15 @@
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  height: 40%;
+}
+
+.card-body {
+  flex: none;
+  padding: 0;
+}
+
+.more {
+}

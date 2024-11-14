@@ -5,7 +5,7 @@
             <nav class="nav">
                 <a href="">TRANG CHỦ</a>
                 <a href="aboutus.php">GIỚI THIỆU</a>
-                <a href="#">TIN TỨC</a>
+                <a href="news.php">TIN TỨC</a>
                 <a href="#">DỊCH VỤ</a>
                 <a href="#">LIÊN HỆ</a>
             </nav>

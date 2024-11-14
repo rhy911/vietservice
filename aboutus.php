@@ -198,7 +198,7 @@
     </div>
     <?php include 'shared/footer.php'; ?>
     <div id="video-container">
-        <div class="video-wrapper">
+        <div class="video-wrapper ratio ratio-16x9">
             <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=eftZaf3DPLpZf3TL?controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
