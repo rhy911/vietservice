@@ -3,11 +3,11 @@
         <img src="/vietservice/assets/images/logo.png" alt="Viet Service Logo" class="logo">
         <div class="nav-bar">
             <nav class="nav">
-                <a href="">TRANG CHỦ</a>
+                <a href="index.php">TRANG CHỦ</a>
                 <a href="aboutus.php">GIỚI THIỆU</a>
                 <a href="news.php">TIN TỨC</a>
                 <a href="service.php">DỊCH VỤ</a>
-                <a href="#">LIÊN HỆ</a>
+                <a href="contact.php">LIÊN HỆ</a>
             </nav>
         </div>
         <div id="nav-container">
@@ -19,11 +19,11 @@
             </div>
             <div id="nav-content" tabindex="0">
                 <ul>
-                    <li><a href="#0">TRANG CHỦ</a></li>
-                    <li><a href="#0">GIỚI THIỆU</a></li>
-                    <li><a href="#0">TIN TỨC</a></li>
-                    <li><a href="#0">DỊCH VỤ</a></li>
-                    <li><a href="#0">LIÊN HỆ</a></li>
+                    <li><a href="index.php">Trang chủ</a></li>
+                    <li><a href="aboutus.php">Giới thiệu</a></li>
+                    <li><a href="news.php">Tin tức</a></li>
+                    <li><a href="service.php">Dịch vụ</a></li>
+                    <li><a href="contact.php">Liên hệ</a></li>
                 </ul>
             </div>
         </div>

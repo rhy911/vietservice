@@ -84,7 +84,7 @@ header section {
   display: block;
   width: 100%;
   height: 3px;
-  background: #aaa;
+  background: #25723a;
   transition: 0.3s;
 }
 
@@ -126,15 +126,18 @@ header section {
 }
 
 #nav-content ul {
+  padding-left: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
+  list-style-type: none;
 }
 
 #nav-content li a {
+  color: #333;
+  text-decoration: none;
   padding: 10px 5px;
   display: block;
-  text-transform: uppercase;
   transition: color 0.1s;
 }
 
