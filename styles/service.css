@@ -1,0 +1,21 @@
+.background-img {
+  background-image: url("/vietservice/assets/images/dichvukysutaicho.jpg");
+  background-position: center center;
+  padding: 70px 20px 70px 20px;
+}
+
+.overlay {
+  text-align: start;
+}
+
+.overlay p {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 0.9rem;
+}
+
+.overlay h1 {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: none;
+}

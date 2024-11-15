@@ -12,7 +12,7 @@
 
 <body>
     <?php include 'shared/header.php'; ?>
-    <div class="about-us">
+    <div class="body">
         <section class="background-img">
             <div class="opacity"></div>
             <div class="overlay">
@@ -170,13 +170,7 @@
                     <h2 style="max-width: 450px; margin: 0 auto;">Ý TƯỞNG HÔM NAY SẼ LÀ SÁNG KIẾN NGÀY MAI</h2>
                 </div>
                 <p class="text-align-center" style="max-width: 770px; margin: 0 auto; margin-bottom: 45px;">Cùng khám phá các bài viết được chia sẻ bởi VietService để tiếp cận những xu hướng CNTT hiện tại, hoặc những thủ thuật giúp ích cho trải nghiệm CNTT ngày càng tốt hơn.</p>
-                <div class="share-thought-card max-width d-flex">
-                    <div class="card flex-column">
-                        <img src="assets/images/domain.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
+                <div class="d-flex flex-wrap">
                     <div class="card flex-column">
                         <img src="assets/images/domain.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -186,9 +180,19 @@
                         </div>
                     </div>
                     <div class="card flex-column">
-                        <img src="assets/images/domain.jpg" class="card-img-top" alt="...">
+                        <img src="assets/images/tong_dai.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h3 class="card-text">Phân Biệt Dịch Vụ IT Helpdesk, IT Support, IT Outsourcing</h3>
+                            <div class="date"><span>17 March, 2022</span></div>
+                            <p>Dịch vụ IT Helpdesk là gì? IT HelpDesk là người xử lý các sự cố liên quan đến máy tính, máy in hoặc hệ thống</p>
+                        </div>
+                    </div>
+                    <div class="card flex-column">
+                        <img src="assets/images/hinh-anh-IT-service-la-gi-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-text">IT Service là gì và những điều cần biết</h3>
+                            <div class="date"><span>17 March, 2022</span></div>
+                            <p>Đề cập đến việc áp dụng kinh doanh và chuyên môn kỹ thuật, IT Service hỗ trợ các tổ chức trong việc thiết lập, tối</p>
                         </div>
                     </div>
                 </div>
