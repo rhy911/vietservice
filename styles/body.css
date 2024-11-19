@@ -8,6 +8,7 @@ h2,
 .solution-section h2 {
   font-weight: 500;
   line-height: 1.5em;
+  text-align: center;
 }
 
 h2 {
@@ -106,7 +107,6 @@ section {
 
 .service-item {
   flex-basis: calc(25% - 20px);
-  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -127,12 +127,13 @@ section {
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 16px;
+  color: #54595f;
 }
 
 .service-item h3,
 .solution-item h3 {
   font-size: 22px;
-  color: var(--secondary-color);
+  color: #333;
   margin: 10px 0;
 }
 
@@ -155,17 +156,29 @@ section {
 .info-section {
   padding: 10px;
   width: 50%;
-  line-height: 30px;
 }
 
 .info-section h3 {
-  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5em;
   margin-bottom: 16px;
+  color: #25723a;
+}
+
+.info-section p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
 }
 
 .accordion-flush > .accordion-item > .accordion-header .accordion-button,
 .accordion-flush > .accordion-item > .accordion-header .accordion-button.collapsed {
   background-color: #c2c9d126;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
 }
 
 .accordion-button:not(.collapsed) {
